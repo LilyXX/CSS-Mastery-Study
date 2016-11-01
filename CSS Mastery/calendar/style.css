@@ -1,0 +1,61 @@
+.cal caption{
+	font-size: 12.5px;
+	padding-top: 6.92px;
+	padding-bottom: 6.92px;
+	background-color: #d4dde6;
+}
+.cal caption [rel='prev']{
+	float: left;
+	margin-left: 2px;
+}
+.cal caption [rel='next']{
+	float: right;
+	margin-right: 2px;
+}
+.cal caption a:link,
+.cal caption a:visited{
+	text-decoration: none;
+	color: #333;
+	padding: 0 2px;
+}
+.cal caption a:hover,
+.cal caption a:active,
+.cal caption a:focus{
+	background-color: #6d8ab7;
+}
+.cal thead th{
+	background-color: #d4dde6;
+	border-bottom: 1px solid #a9bacb;
+	font-size: 8.75px;
+}
+.cal tbody{
+	color: #a4a4a4;
+	text-shadow: 1px 1px 1px white;
+	background-color: #d0d9e2;
+}
+.cal tbody td{
+	border-top: 1px solid #e0e0e1;
+	border-right: 1px solid #9f9fa1;
+	border-bottom: 1px solid #acacad;
+	border-left: 1px solid #dfdfe0;
+}
+.cal tbody a{
+	display: block;
+	text-decoration: none;
+	color: #333;
+	background-color: #c0c8d2;
+	font-weight: bold;
+	padding: 3.85px 6.92px 3.08px 6.92px;
+}
+.cal tbody a:hover,
+.cal tbody a:focus,
+.cal tbody a:active,
+.cal tbody .selected a:link,
+.cal tbody .selected a:vistied,
+.cal tbody .selected a:hover,
+.cal tbody .selected a:focus,
+.cal tbody .selected a:active{
+	background-color: #6d8ab7;
+	color: white;
+	text-shadow: 1px 1px 2px #22456b;
+}

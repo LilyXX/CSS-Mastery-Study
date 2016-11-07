@@ -1,0 +1,120 @@
+.wrapper{
+	margin: 0 auto;
+	width: 76.8%;
+	background: #ffc;
+	min-width: 620px;
+	max-width: 1250px;
+}
+.content{
+	overflow: hidden;
+}
+.content .primary{
+	width: 72.82%;
+	height: 50px;
+	float: right;
+	display: inline;
+	background: #ccc;
+}
+.content .secondary{
+	width: 25%;
+	height: 50px;
+	float: left;
+	display: inline;
+	background: #000;
+}
+.content .primary .primary{
+	width: 59.7%;
+	height: 50px;
+	float: left;
+	display: inline;
+	background: red;
+}
+.content .primary .secondary{
+	width: 34.33%;
+	float: right;
+	padding-right: 2.63%;
+	background: pink;
+	height: 50px;
+	display: inline;
+}
+
+.body{
+	font-size: 62.5%;
+	text-align: center;
+}
+.wrapper_02{
+	width: 920px;
+	max-width: 95%;
+	margin: 0 auto;
+	text-align: left;
+	height: 100px;
+	background: #ccc;
+	margin-top: 100px;
+}
+.wrapper_02 .content .primary{
+	width: 72.82%;
+	float: right;
+	display: inline;
+	height: 70px;
+	background: red;
+}
+.wrapper_02 .content .secondary{
+	width: 25%;
+	float: left;
+	display: inline;
+	height: 70px;
+	background: pink;
+}
+.wrapper_02 .content .primary .primary{
+	width: 59.7%;
+	float: left;
+	display: inline;
+	height: 60px;
+	background: #ffc;
+}
+.wrapper_02 .content .primary .secondary{
+	width: 34.33%;
+	height: 60px;
+	float: right;
+	padding-right: 20px;
+	display: inline;
+}
+
+.wrapper_03{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 50px;
+	position: relative;
+}
+.wrapper_03 .box{
+	width: 250px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 520px;
+	margin-left: 20px;
+	margin-bottom: 500px;
+	float: left;
+	display: inline;
+	padding: 20px;
+	border-radius: 20%;
+	background: #89ac10 url(img/01.jpg) no-repeat right top;
+}
+.wrapper .bottom{
+	position: absolute;
+	bottom: 0;
+	height: 20px;
+	width: 290px;
+	background: url(img/02.jpg) #89ac10 bottom left no-repeat;
+	margin-left: -20px;
+}
+
+.wrapper_04{
+	margin-top: 20px;
+}
+.wrapper_04 .col{
+	column-count: 3;
+	column-width: 100px;
+	column-gap: 20px;
+	column-rule: 1px solid #ccc;
+}

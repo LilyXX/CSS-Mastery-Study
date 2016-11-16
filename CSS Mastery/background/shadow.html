@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>shadow and alopha</title>
+<style type="text/css">
+img{
+	margin: 30px;
+	height: 300px;
+	width: 150px;
+}
+.img-wrapper{
+	border-radius: 2em;
+	box-shadow: 3px 3px 6px #666;
+	background-color: rgba(0,0,0,0.2); 
+	/*0为完全透明*/
+}
+.midground{
+	height: 500px;
+	width: 100%;
+	background-image: url(../img/xue01.jpeg);
+	background-repeat: repeat-x;
+	background-color: #d3ff99;
+	background-position: 20% 0;
+}
+</style>
+</head>
+
+<body>
+<div class="img-wrapper">
+	<img src="../img/xue02.jpg">
+</div>
+<div class="midground">
+	<div class="foreground">
+		<p>Your content will go here!</p>
+	</div>
+</div>
+</body>
+</html>

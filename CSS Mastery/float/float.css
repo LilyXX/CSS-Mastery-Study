@@ -1,0 +1,51 @@
+img{
+	height: 200px;
+	width: 150px;
+}
+div{
+	margin: 10px;
+}
+/*末未添加新元素*/
+.news{
+	background: gray;
+	border: solid 1px black;
+}
+.news img{
+	float: left;
+}
+.news p{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+/*浮动容器div*/
+.news_02{
+	background: #655;
+	border: 1px solid black;
+	float: left;
+}
+.news_02 .img{
+	float: left;
+}
+.news_02 .p{
+	float: right;
+}
+/*overflow(the best one)*/
+.news_03{
+	background: tan;
+	border: 1px solid black;
+}
+.news_03 img{
+	float: left;
+}
+.news_03 p{
+	float: right;
+}
+.clear02:after{
+	content: ".";
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}

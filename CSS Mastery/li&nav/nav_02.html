@@ -1,0 +1,58 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>创建水平导航条</title>
+<style type="text/css">
+ol.pagination{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ol.pagination li{
+	float: left;
+	margin-right: 0.6em;
+}
+ol.pagination a,
+ol.pagination li.selected{
+	display: block;
+	padding: 0.2em 0.5em;
+	border: 1px solid #ccc;
+	text-decoration: none;
+}
+ol.pagination a:hover,
+ol.pagination a:focus,
+ol.pagination li.selected{
+	background: blue;
+	color: white;
+}
+ol.pagination a[rel="next"],
+ol.pagination a[rel="prev"]{
+	border: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+ol.pagination a[rel="prev"]:before{
+	content: "\00ab";
+	padding-right: 0.5em;
+}
+ol.pagination a[rel="next"]:after{
+	content: "\00bb";
+	padding-left: 0.5em;
+}
+
+</style>
+</head>
+
+<body>
+<ol class="pagination">
+	<li><a href="#" rel="prev">Prev</a></li>
+	<li><a href="#">1</a></li>
+	<li><a href="#">2</a></li>
+	<li><a href="#">3</a></li>
+	<li><a href="#">4</a></li>
+	<li><a href="#">5</a></li>
+	<li><a href="#" rel="next">Next</a></li>
+</ol>
+</body>
+</html>

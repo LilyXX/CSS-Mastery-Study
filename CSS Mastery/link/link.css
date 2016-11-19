@@ -1,0 +1,67 @@
+div{
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	background: tan;
+	height: 120px;
+}
+/*只让真正链接变成红色*/
+.div_01 a{
+	color: red;
+}
+.div_02 a:link{
+	color: blue;
+}
+.div_02 a:visited{
+	color: green;
+}
+/*聚焦*/
+.div_03 a:hover,.div_03 a:focus{
+	color: red;
+}
+/*顺序对比:link&visited会覆盖hover&active*/
+.div_04 a:link,.div_04 a:visited{
+	text-decoration: none;
+}
+.div_04 a:hover,.div_04 a:focus,.div_04 a:active{
+	text-decoration: underline;
+}
+/*对比4不起作用*/
+.div_05 a:hover,.div_05 a:focus,.div_05 a:active{
+	text-decoration: underline;
+}
+.div_05 a:link,.div_05 a:visited{
+	text-decoration: none;
+}
+/*添加图标*/
+.div_06 a{
+	background: url(../img/room.jpg) no-repeat right top;
+	padding-right: 10px;
+}
+/*创建类似按钮的链接*/
+.div_07 a{
+	display: block;
+	width: 6.6em;
+	line-height: 1.4;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #66a300;
+	background-color: #8cca12;
+	color: #fff;
+}
+/*实现简单翻转效果*/
+.div_08 a{
+	display: block;
+	width: 6.6em;
+	height: 1.4em;
+	line-height: 1.4;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #66a300;
+	border-radius: 6px;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#abe142),to(#67a400));
+	background-color: #8cca12;
+	color: #fff;
+	text-shadow: 2px 2px 2px #66a300;
+	box-shadow: 2px 2px 2px #ccc;
+	-webkit-box-reflect: below 2px -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(0.52,transparent),to(white));
+}

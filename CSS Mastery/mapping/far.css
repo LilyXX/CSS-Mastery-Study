@@ -1,0 +1,70 @@
+.remote{
+	width: 440px;
+	height: 460px;
+	position: relative;
+}
+.remote ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.remote a .hotspot{
+	width: 50px;
+	height: 60px;
+	position: absolute;
+}
+
+.remote .face a .hotspot{
+	top: 100px;
+	left: 190px;
+}
+.remote .hand a .hotspot{
+	top: 100px;
+	left: 280px;
+}
+.remote .logo a .hotspot{
+	top: 170px;
+	left: 190px;
+	width: 60px;
+	height: 80px;
+}
+.remote .feet a .hotspot{
+	top: 300px;
+	left: 260px;
+}
+.remote .sofa a .hotspot{
+	top: 350px;
+	left: 300px;
+	width: 60px;
+	height: 80px;
+}
+.remote a .link{
+	position: absolute;
+	display: block;
+	width: 10em;
+	right: -22em;
+	cursor: pointer;
+}
+.remote .face a .link{
+	top: 0;
+}
+.remote .hand a .link{
+	top: 1.2em;
+}
+.remote .logo a .link{
+	top: 2.4em;
+}
+.remote .feet a .link{
+	top: 4.6em;
+}
+.remote .sofa a .link{
+	top: 4.8em;
+}
+.remote a:hover .hotspot,
+.remote a:focus .hotspot{
+	border: 1px solid #fff;
+}
+.remote a:hover .link,
+.remote a:focus .link{
+	color: #0066ff;
+}

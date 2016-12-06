@@ -1,0 +1,76 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>基于浮动的布局</title>
+<style type="text/css">
+.content_01 .primary{
+	width: 650px;
+	padding-right: 20px;
+	float: right;
+	display: inline;
+	background: red;
+	height: 200px;
+}
+.content_01 .secondary{
+	width: 230px;	
+	float: left;
+	display: inline;
+	background: yellow;
+	height: 200px;
+}
+.content_01{
+	overflow: hidden;
+}
+/*三列布局*/
+.content_02{
+	margin-top: 20px;
+}
+.content_02 .primary_02{
+	width: 670px;
+	background: black;
+	height: 500px;
+	float: right;
+	display: inline;
+}
+.content_02 .secondary_02{
+	width: 230px;
+	background: blue;
+	height: 500px;
+	float: left;
+	display: inline;
+}
+.content_02 .primary_02 .primary_02{
+	width: 400px;
+	background: pink;
+	height: 500px;
+	float: left;
+	display: inline;
+}
+.content_02 .primary_02 .secondary_02{
+	width: 230px;
+	background: green;
+	padding-right: 20px;
+	height: 500px;
+	float: right;
+	display: inline;
+}
+</style>
+</head>
+
+<body>
+<!-- 两列布局 -->
+<div class="content_01">
+	<div class="primary"></div>
+	<div class="secondary"></div>
+</div>
+<!-- 三列布局 -->
+<div class="content_02">
+	<div class="primary_02">
+		<div class="primary_02"></div>
+		<div class="secondary_02"></div>
+	</div>
+	<div class="secondary_02"></div>
+</div>
+</body>
+</html>

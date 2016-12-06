@@ -1,0 +1,76 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Flexible Layout</title>
+<style type="text/css">
+body{
+	font-size: 62.5%;
+	text-align: center;
+}
+.wrapper{
+	width: 92em;
+	max-width: 95%;
+	margin: 0 auto;
+	text-align: left;
+}
+.content .primary{
+	width: 72.82%;
+	background: pink;
+	float: right;
+	display: inline;
+}
+.content .secondary{
+	width: 25%;
+	background: lightblue;
+	float: left;
+	display: inline;
+}
+.content .primary .primary{
+	width: 59.7%;
+	background: lightyellow;
+	float: left;
+	display: inline; 
+}
+.content .primary .secondary{
+	width: 34.33%;
+	float: right;
+	display: inline;
+	padding-right: 2em;
+}
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+	<header></header>
+	<div class="content">
+		<div class="primary">
+			<div class="primary">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+			<div class="secondary">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+		</div>
+		<div class="secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	</div>
+	<footer></footer>
+</div>
+</body>
+</html>
